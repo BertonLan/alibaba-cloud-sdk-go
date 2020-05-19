@@ -90,6 +90,7 @@ type ListInstanceResponse struct {
 	RequestId             string          `json:"RequestId" xml:"RequestId"`
 	PageNo                int             `json:"PageNo" xml:"PageNo"`
 	PageSize              int             `json:"PageSize" xml:"PageSize"`
+	TotalCount            int             `json:"TotalCount" xml:"TotalCount"`
 	Instances             []InstancesItem `json:"Instances" xml:"Instances"`
 }
 
